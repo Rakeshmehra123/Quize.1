@@ -52,3 +52,11 @@ for(var i=0; i<questions.length; i++)
     play(currentQuestion.question,currentQuestion.answer)
 }
 console.log("High scoorer is "+highScore.name+" with high score of "+highScore.score)
+console.log("______________")
+if(highScore.score<score)
+{
+    highScore.score = score;
+    highScore.name= userName;
+    console.log(userName+" beaten the high scoorer "+highScore.name);
+    console.log(_______________________)
+}
